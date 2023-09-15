@@ -1,0 +1,53 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(226, 27, 27, 0.808);
+}
+
+.white-rectangle {
+  font-family: Montserrat;
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 350px;
+  height: 400px;
+  background-color: rgb(252, 41, 41);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  flex-direction: column
+  
+}
+
+.text {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.text2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.text3 {
+  font-size: 25px;
+ 
+  color: white;
+}
+.image-container {
+  margin-left: 50%;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
